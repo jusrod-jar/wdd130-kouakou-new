@@ -1,0 +1,16 @@
+/* This will be the css for the header and footer, can make separate files for each child page */
+
+header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+header nav {
+    margin: auto;
+}
+
+header nav a {
+    font-size: x-large;
+    text-decoration: none;
+}
