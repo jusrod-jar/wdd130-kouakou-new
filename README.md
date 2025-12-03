@@ -1,4 +1,4 @@
-https://jusrod-jar.github.io/wdd130-kouakou/
+https://jusrod-jar.github.io/wdd130-kouakou-new/
 
 Client: Christ Kouakou
 
