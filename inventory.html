@@ -3,64 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
     <title>Inventory</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+}
+ 
+nav {
+    border: solid .5px black;
+    padding: 20px;
+}
+ 
+ 
+.banner {
+    background: #ddd;
+    padding: 40px 0;
+    text-align: center;
+}
+ 
+.banner img {
+    display: block;
+    margin: 0 auto 20px;
+}
+ 
+.banner h1 {
+    font-size: 24px;
+}
+ 
+#inventory-title {
+    text-align: center;
+    padding: 20px 0;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: 1px;
+    font-size: 22px;
+}
+ 
+.inventory-grid {
+    width: 80%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+ 
+.item {
+    background: white;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-bottom: 15px;
+}
+ 
+.item img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    background: #ddd;
+}
+ 
+.get-started {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.box {
+    width: 45%;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 30px;
+    text-align: center;
+}
+ 
+ 
+ 
+ 
+    </style>
 </head>
 <body>
-    <header>
-        <img src="images/logo2.png" alt="Tendance Auto Logo" id="logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="inventory.html">Inventory </a>
-            <a href="">Service</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
-    </header>
-    <main>
-        <div class="msg">
-            <h1>Banner Msg</h1>
-            <img src="https://placehold.co/600x400" alt="">
-        </div>
-        <div id="inventory">Inventory</div>
-
-        <div class="price">
-
-            <img src="https://placehold.co/100x100" alt="" class="price">
-            <p>Price</p>
-            <img src="https://placehold.co/100x100" alt="" class="price">
-            <p>Price</p>
-            <img src="https://placehold.co/100x100" alt="" class="price">
-            <p>Price</p>
-            <img src="https://placehold.co/100x100" alt="" class="price">
-            <p>Price</p>
-            <img src="https://placehold.co/100x100" alt="" class="price">
-            <p>Price</p>
-            <img src="https://placehold.co/100x100" alt="" class="price">
-            <p>Price</p>
-            <img src="https://placehold.co/100x100" alt="" class="price">
-            <p>Price</p>
-            <img src="https://placehold.co/100x100" alt="" class="price">
-            <p>Price</p>
-        </div>
-        <div class="getstarted">
-            <div class="looking">
-                <p>Are you looking For Car</p>
-                <p>Get Started(link to service)</p>
-            </div>
-            <div class="sell">
-                <p>Do You Want to Sell a Car</p>
-                <p>Get Started(link to service) </p>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <nav>
-            <a href="">How to Reach Us</a>
-            <a href="">Quick Link</a>
-            <a href="">Store House</a>
-            <a href="">Social Media</a>
-        </nav>
-    </footer>
-</body>
+ 
+<header>
+    <img src="images/logo.png" alt="Tendance Auto Logo" id="logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="inventory.html">Inventory </a>
+        <a href="contact.html">Contact Us</a>
+        <a href="services.html">Services</a>
+    </nav>
+</header>
+ 
+<main>
+    <section class="banner">
+        <img src="https://placehold.co/600x300" alt="Banner">
+        <h1>Banner Msg</h1>
+    </section>
+    <h2 id="inventory-title">Inventory</h2>
+<section class="inventory-grid">
+ 
+    <div class="item">
+        <img src="images/PHOTO-2025-09-07-16-31-46.jpg" alt="">
+        <p>Price</p>
+    </div>
+ 
+    <div class="item">
+        <img src="images/PHOTO-2025-05-31-18-58-41.jpg" alt="">
+        <p>Price</p>
+    </div>
+ 
+    <div class="item">
+        <img src="images/PHOTO-2025-08-07-11-46-30.jpg" alt="">
+        <p>Price</p>
+    </div>
+ 
+    <div class="item">
+        <img src="images/PHOTO-2025-05-19-13-49-59.jpg" alt="">
+        <p>Price</p>
+    </div>
+ 
+    <div class="item">
+        <img src="images/a16e5a46-3e3e-49eb-886a-dc69e4a4c02b.JPG" alt="">
+        <p>Price</p>
+    </div>
+ 
+    <div class="item">
+        <img src="images/9d3f1ceb-f180-4896-a381-b32ed16360af.JPG" alt="">
+        <p>Price</p>
+    </div>
+ 
+    <div class="item">
+        <img src="images/627e4e13-b91f-461f-9d49-ff3138f39067.JPG" alt="">
+        <p>Price</p>
+    </div>
+ 
+    <div class="item">
+        <img src="images/two-cars-that-have-been-damaged-in-a-collision-photo.webp" alt="">
+        <p>Price</p>
+    </div>
+ 
+</section>  
+ 
+<section class="get-started">
+ 
+    <div class="box">
+        <p>Do You Want to Sell a Car</p>
+        <p>Get Started (link to service)</p>
+    </div>
+ 
+    <div class="box">
+        <p>Are you looking For a Car</p>
+        <p>Get Started (link to service)</p>
+    </div>
+ 
+</section>
+ 
+ 
+ 
+</main>
+ 
+<footer>
+    <nav>
+        <a href="">How to reach us</a>
+        <a href="">Quick Link</a>
+        <a href="">Store House</a>
+        <a href="">Social Media</a>
+    </nav>
+</footer>
+ 
 </body>
 </html>
