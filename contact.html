@@ -1,35 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-!
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
     <link rel="stylesheet" href="styles/style.css">
+    <title>Contact Us | Tendance Auto</title>
 </head>
-
 <body>
+
     <header>
-        <img src="images/logo2.png" alt="Tendance Auto Logo" id="logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="inventory.html">Inventory </a>
-            <a href="">Service</a>
-            <a href="contact.html">Contact Us</a>
+        <nav class="main-nav">
+            <div class="logo-area">
+                <img src="images/logo.png" alt="Tendance Auto Logo" class="logo">
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
-        <main>
-            <h1>This is the contact page</h1>
-        </main>
-    <footer>
-        <nav>
-            <a href="">How to Reach Us</a>
-            <a href="">Quick Link</a>
-            <a href="">Store House</a>
-            <a href="">Social Media</a>
-        </nav>
-    </footer>
-</body>
-</body>
 
+
+    <section class="visit-banner">
+        <h1>Request a Visit/Tour</h1>
+        <div class="banner-box"></div>
+    </section>
+
+
+    <section class="contact-section">
+        <h2>Plan A Visit</h2>
+
+        <form class="contact-form">
+            <label>Name</label>
+            <input type="text" placeholder="Your name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Your email">
+
+            <label>Message</label>
+            <textarea placeholder="Type here..."></textarea>
+
+            <button type="submit" class="send-btn">Send</button>
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-column">
+            <h3>How to reach us</h3>
+            <p>Phone: (67) 676-6767</p>
+            <p>Email: contact@tendanceauto.com</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="inventory.html">Inventory</a></p>
+            <p><a href="services.html">Services</a></p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Store House</h3>
+            <p>123 Auto Lane</p>
+            <p>Newport, CA 90001</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Social Media</h3>
+            <p>Instagram</p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+        </div>
+    </footer>
+
+</body>
 </html>
